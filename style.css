@@ -1,0 +1,55 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  min-height: 350px;
+  background: url("new-york-city.jpg");
+  background-size: cover;
+  padding: 1px;
+}
+
+.wrapper_bkg {
+  width: 100%;
+  min-height: 350px;
+  border: solid 1px green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(94, 67, 61, 0.5);
+}
+
+.container h1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: white;
+  margin-top: 0;
+}
+.container h2 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.container button.sign_up {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  background: white;
+  border: 0;
+  border-radius: 3px;
+  margin-top: 2rem;
+}
+
+.container button.learn_more {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 3px;
+  margin-top: 1rem;
+  color: white;
+}
