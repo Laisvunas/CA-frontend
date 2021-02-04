@@ -1,5 +1,6 @@
 body {
   font-family: "Open Sans", sans-serif;
+  color: #555;
 }
 
 header {
@@ -12,7 +13,6 @@ header {
 .wrapper_bkg {
   width: 100%;
   min-height: 350px;
-  border: solid 1px green;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,6 +43,10 @@ header {
   margin-top: 2rem;
 }
 
+.container button.sign_up:hover {
+  background: rgb(241, 237, 237);
+}
+
 .container button.learn_more {
   display: block;
   width: 100%;
@@ -52,4 +56,104 @@ header {
   border-radius: 3px;
   margin-top: 1rem;
   color: white;
+}
+
+.container button.learn_more:hover {
+  background: rgb(241, 237, 237);
+  color: #555;
+}
+
+main .container button.learn_more {
+  border: 1px solid #999;
+  color: #555;
+}
+
+section:first-child {
+  margin-bottom: 1rem;
+}
+
+section:last-child {
+  background-color: #f5957a;
+}
+
+section .container,
+footer .container {
+  padding: 2.5rem 1.2rem;
+}
+
+section .container h2 {
+  color: #555;
+  margin-bottom: 1.6rem;
+  margin-top: 0;
+}
+
+section:last-child .container h2 {
+  color: white;
+}
+
+section .container p {
+  text-align: center;
+  margin: 0;
+}
+
+section:first-child .container p {
+  border-top: solid 0.1rem #999;
+  padding-top: 1.4rem;
+}
+
+section:last-child .container p {
+  color: white;
+}
+
+section:last-child .container input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 3px;
+  padding: 0.5rem;
+  background: #f6a58e;
+  margin-top: 2rem;
+}
+
+section:last-child .container input::placeholder {
+  color: white;
+}
+
+section:last-child .container button {
+  color: #f5957a;
+  border: 0;
+  margin-top: 1rem;
+}
+
+.wrapper_img {
+  min-height: 150px;
+}
+
+.bkg_img_1 {
+  background: url("blogger.jpg");
+  background-size: cover;
+}
+
+.bkg_img_2 {
+  background: url("mountain-road.jpg");
+  background-size: cover;
+}
+
+.bkg_img_3 {
+  background: url("mountains-panorama.jpg");
+  background-size: cover;
+}
+
+footer {
+  background: #f1f1f1;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer a {
+  display: inline-block;
+  margin: 0 0.3rem;
 }
